@@ -33,8 +33,8 @@ let light = querySelector('.circle');
 const style = document.createElement('style');
 
 function switchLight() {
-    `style.innerHTML =
-    .circle {
+    style.innerHTML =
+    `.circle {
     background-color= "#c0392b";
     box-shadow: 0 0 20px 5px #c0392b;`
 }
