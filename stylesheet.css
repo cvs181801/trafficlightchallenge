@@ -33,7 +33,7 @@ body {
 	height: 30px;
 }
 
-.circle-red {
+/* .circle-red {
 	background-color: #c0392b;
     box-shadow: 0 0 20px 5px #c0392b;
     border-radius: 100%;
@@ -58,7 +58,7 @@ body {
 	position: relative;
 	height: 40px;
 	width: 40px;
-} 
+}  */
 
 .circle {
 	background-color: rgba(0, 0, 0, 0.3);
