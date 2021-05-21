@@ -31,12 +31,11 @@
 
 
 //const style = document.createElement('style');
-let light = querySelector('.circle');
+let light = querySelector('#circle');
 
 function switchLight() {
-    
-    light.style.backgroundColor = "#c0392b";
-    light.style.boxShadow = '0 0 20px 5px #c0392b';
+    light.classList.add('circle-red');
+    light.classLight.toggle('circle-red');
 }
 
 
