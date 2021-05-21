@@ -10,17 +10,20 @@ const turnOffLight = (currentLight) =>{
     currentLight.className = 'circle'
 }
 
-//const changeLight = ()=>{
-//   document.querySelector(".circle.red");
-//}
-
-(async function() {
-    try{
-       await changeLight()
-       await changeLight()
-       await changeLight()
-    }catch(err){
-        console.log(err)
+const changeLight = ()=>{
+    let currentLight = lights[active];
+    if (active === 0 ) {
+        switchLight(currentLight);
     }
-})();
+}
+
+//(async function() {
+ //   try{
+ //      await changeLight()
+ //      await changeLight()
+ //      await changeLight()
+ //   }catch(err){
+//        console.log(err)
+//    }
+//})();
 
