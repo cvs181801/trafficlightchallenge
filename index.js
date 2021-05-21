@@ -17,6 +17,8 @@ const changeLight = ()=>{
     }
 }
 
+changeLight();
+
 //(async function() {
  //   try{
  //      await changeLight()
