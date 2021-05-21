@@ -52,5 +52,5 @@
 const redLightDiv = document.createElement('div');
 redLightDiv.innerHTML = `<div id="circle-red"></div>`
 
-bodyElement = document.querySelector('body');
-bodyElement.appendChild(redLightDiv);
+containerElement = document.querySelector('container');
+containerElement.appendChild(redLightDiv);
