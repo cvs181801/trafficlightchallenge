@@ -30,14 +30,13 @@
 //})();
 
 
-const style = document.createElement('style');
+//const style = document.createElement('style');
+let light = querySelector('.circle');
 
 function switchLight() {
-    let light = querySelector('.circle');
-    style.innerHTML =
-    `.circle {
-    background-color= "#c0392b";
-    box-shadow: 0 0 20px 5px #c0392b;`
+    
+    light.style.backgroundColor = "#c0392b";
+    light.style.boxShadow = '0 0 20px 5px #c0392b';
 }
 
 
