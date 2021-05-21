@@ -34,8 +34,9 @@
 let light = getElementByID('circle');
 
 function switchLight() {
+    light.remove();
     light.classList.add('circle-red');
-    light.classLight.toggle('circle-red');
+    //light.classLight.toggle('circle-red');
 }
 
 
