@@ -50,7 +50,18 @@
 //****try again
 
 const redLightDiv = document.createElement('div');
-redLightDiv.innerHTML = `<div id="circle-red"></div>`
+const yellowLightDiv = document.createElement('div');
+const greenLightDiv = document.createElement('div');
+
 
 containerElement = document.querySelector('.container');
-containerElement.appendChild(redLightDiv);
+circleOneElement = document.querySelector('.circle1');
+circleTwoElement = document.querySelector('.circle2');
+circleThreeElement = document.querySelector('.circle3');
+
+
+redLightDiv.innerHTML = `<div id="circle-red"></div>`
+yellowLightDiv.innerHTML = `<div id="circle-yellow"></div>`
+greenLightDiv.innerHTML = `<div id="circle-green"></div>`
+
+redLightDiv.parentNode.insertBefore(containerElement, circleTwoElement);

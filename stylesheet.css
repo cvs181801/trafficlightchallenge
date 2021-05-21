@@ -22,13 +22,30 @@ body {
 	width: 70px;
 }
 
-.circle {
+.circle1 {
 	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 100%;
 	position: relative;
 	height: 40px;
 	width: 40px;
 } 
+
+.circle2 {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 100%;
+	position: relative;
+	height: 40px;
+	width: 40px;
+} 
+
+.circle3 {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 100%;
+	position: relative;
+	height: 40px;
+	width: 40px;
+} 
+
 
 .circle::after {
 	border-right: 4px solid rgba(255, 255, 255, 0.6);
