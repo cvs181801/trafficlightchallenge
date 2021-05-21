@@ -34,8 +34,8 @@
 let light = querySelector('#circle');
 
 function switchLight() {
-    light.classList.add('circle-red');
-    light.classLight.toggle('circle-red');
+    light.classList.add('.circle-red');
+    light.classLight.toggle('.circle-red');
 }
 
 
