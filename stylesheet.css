@@ -48,7 +48,7 @@ body {
 	position: relative;
 	height: 40px;
     width: 40px;
-    display: hidden;
+    
 }
 
 #circle-yellow {
@@ -58,7 +58,7 @@ body {
 	position: relative;
 	height: 40px;
     width: 40px;
-    display: hidden;
+    
 }
 
 #circle-green {
@@ -68,7 +68,7 @@ body {
 	position: relative;
 	height: 40px;
     width: 40px;
-    display: hidden;
+    
 }  
 
 
