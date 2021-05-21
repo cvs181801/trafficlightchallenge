@@ -31,15 +31,26 @@
 
 
 //const style = document.createElement('style');
-let light = querySelector('circle');
 
-function switchLight() {
-    light.remove('#circle');
-    light.classList.add
-    light.classList.toggle('circle-red');
-    light.style.display = block;
+
+//****try again
+// let light = querySelector('circle');
+
+// function switchLight() {
+//     light.remove('#circle');
+//     light.classList.add
+//     light.classList.toggle('circle-red');
+//     light.style.display = block;
     
-}
+// }
 
 
-switchLight();
+// switchLight();
+
+//****try again
+
+const redLightDiv = document.createElement('div');
+redLightDiv.innerHTML = `<div id="circle-red"></div>`
+
+bodyElement = document.querySelector('body');
+bodyElement.appendChild(redLightDiv);
