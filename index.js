@@ -29,10 +29,11 @@
 //    }
 //})();
 
-let light = querySelector('.circle');
+
 const style = document.createElement('style');
 
 function switchLight() {
+    let light = querySelector('.circle');
     style.innerHTML =
     `.circle {
     background-color= "#c0392b";
