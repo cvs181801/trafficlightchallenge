@@ -64,4 +64,5 @@ redLightDiv.innerHTML = `<div id="circle-red"></div>`
 yellowLightDiv.innerHTML = `<div id="circle-yellow"></div>`
 greenLightDiv.innerHTML = `<div id="circle-green"></div>`
 
+circleOneElement.remove();
 redLightDiv.parentNode.insertBefore(containerElement, circleTwoElement);
