@@ -53,4 +53,4 @@ const redLightDiv = document.createElement('div');
 redLightDiv.innerHTML = `<div id="circle-red"></div>`
 
 containerElement = document.querySelector('.container');
-containerElement.parentNode.insertBefore(redLightDiv, container.element.nextSibling);
+containerElement.appendChild(redLightDiv);
