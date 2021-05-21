@@ -31,12 +31,14 @@
 
 
 //const style = document.createElement('style');
-let light = getElementByID('circle');
+let light = querySelector('circle');
 
 function switchLight() {
     light.remove('#circle');
-    light.classList.add('circle-red');
-    //light.classLight.toggle('circle-red');
+    light.classList.add
+    light.classList.toggle('circle-red');
+    light.style.display = block;
+    
 }
 
 
