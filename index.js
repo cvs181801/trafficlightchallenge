@@ -72,4 +72,5 @@
 //lets try the getElementsByTagName() method which returns an array. use it w the div's
 
 const lights = document.getElementsByTagName('div');
-let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`
+let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
+let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
