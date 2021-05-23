@@ -87,7 +87,7 @@ const greenLightDiv = document.getElementById("circle-green");
 
 setTimeout(function() {
     redLightDiv.classList.toggle('hidden');
-    }, 1000);
+    }, 2000);
 
 redLightDiv.classList.toggle('hidden');
 
