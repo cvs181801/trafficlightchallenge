@@ -78,4 +78,4 @@ let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
 //parentLightDiv.appendChild('redLightDiv');
 let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
 let greenLightDiv = lights[3].innerHTML = `<div id="circle-green"></div>`;
-yellowLightDiv.insertBefore(redLightDiv, greenLightDiv);
+yellowLightDiv.replaceChild(redLightDiv, greenLightDiv);
