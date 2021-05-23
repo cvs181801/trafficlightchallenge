@@ -88,26 +88,26 @@ const greenLightDiv = document.getElementById("circle-green");
 
 
 setTimeout(function() {
-    redLightDiv.classList.toggle('hidden');
+    redLightDiv.classList.toggle('grey');
     }, 2000);
  
 setTimeout(function() {
-    redLightDiv.classList.toggle('hidden');
+    redLightDiv.classList.toggle('grey');
     }, 4000);
 
 
 setTimeout(function() {
-     yellowLightDiv.classList.toggle('hidden');
+     yellowLightDiv.classList.toggle('grey');
      }, 6000);
 
 setTimeout(function() {
-    yellowLightDiv.classList.toggle('hidden');
+    yellowLightDiv.classList.toggle('grey');
     }, 8000);
 
 setTimeout(function() {
-    greenLightDiv.classList.toggle('hidden');
+    greenLightDiv.classList.toggle('grey');
     }, 10000);    
 
 setTimeout(function() {
-    greenLightDiv.classList.toggle('hidden');
+    greenLightDiv.classList.toggle('grey');
     }, 12000);    
