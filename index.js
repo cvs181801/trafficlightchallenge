@@ -78,3 +78,11 @@
 // let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
 // let greenLightDiv = lights[3].innerHTML = `<div id="circle-green"></div>`;
 // yellowLightDiv.replaceChild(redLightDiv, greenLightDiv);
+
+// *** try again ** 
+
+const redLightDiv = document.getElementById("circle-red");
+const yellowLightDiv = document.getElementById("circle-yellow");
+const greenLightDiv = document.getElementById("circle-green");
+
+redLightDiv.classList.toggle('hidden');
