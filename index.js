@@ -49,20 +49,27 @@
 
 //****try again
 
-const redLightDiv = document.createElement('div');
-const yellowLightDiv = document.createElement('div');
-const greenLightDiv = document.createElement('div');
+// const redLightDiv = document.createElement('div');
+// const yellowLightDiv = document.createElement('div');
+// const greenLightDiv = document.createElement('div');
 
 
-containerElement = document.querySelector('.container');
-circleOneElement = document.querySelector('.circle1');
-circleTwoElement = document.querySelector('.circle2');
-circleThreeElement = document.querySelector('.circle3');
+// containerElement = document.querySelector('.container');
+// circleOneElement = document.querySelector('.circle1');
+// circleTwoElement = document.querySelector('.circle2');
+// circleThreeElement = document.querySelector('.circle3');
 
 
-redLightDiv.innerHTML = `<div id="circle-red"></div>`
-yellowLightDiv.innerHTML = `<div id="circle-yellow"></div>`
-greenLightDiv.innerHTML = `<div id="circle-green"></div>`
+// redLightDiv.innerHTML = `<div id="circle-red"></div>`
+// yellowLightDiv.innerHTML = `<div id="circle-yellow"></div>`
+// greenLightDiv.innerHTML = `<div id="circle-green"></div>`
 
-circleOneElement.remove();
-redLightDiv.parentNode.insertBefore(containerElement, circleTwoElement);
+//circleOneElement.remove();
+//redLightDiv.parentNode.insertBefore(containerElement, circleTwoElement);
+
+//*** try again */
+
+//lets try the getElementsByTagName() method which returns an array. use it w the div's
+
+const lights = document.getElementsByTagName('div');
+let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`
