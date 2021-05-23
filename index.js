@@ -85,28 +85,22 @@ const redLightDiv = document.getElementById("circle-red");
 const yellowLightDiv = document.getElementById("circle-yellow");
 const greenLightDiv = document.getElementById("circle-green");
 
-(async function() {
-
-    let redLightOn = new Promise((res, rej) => {
 setTimeout(function() {
     resolve(redLightDiv.classList.toggle('hidden'));
     }, 2000);
-    
-    let result = await redLightOn;
-}
-//let redLightOff = redLightDiv.classList.toggle('hidden');
+ 
+redLightDiv.classList.toggle('hidden');
 
-//}
 
-// setTimeout(function() {
-//     yellowLightDiv.classList.toggle('hidden');
-//     }, 3000);
+setTimeout(function() {
+    yellowLightDiv.classList.toggle('hidden');
+    }, 3000);
 
-// yellowLightDiv.classList.toggle('hidden');
+yellowLightDiv.classList.toggle('hidden');
 
-// setTimeout(function() {
-//     greenLightDiv.classList.toggle('hidden');
-//     }, 4000);    
+setTimeout(function() {
+    greenLightDiv.classList.toggle('hidden');
+    }, 4000);    
 
-// greenLightDiv.classList.toggle('hidden');
+greenLightDiv.classList.toggle('hidden');
 
