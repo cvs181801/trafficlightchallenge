@@ -93,7 +93,9 @@ setTimeout(function() {
     redLightDiv.classList.toggle('hidden');
     }, delayInMilliseconds);
  
-// redLightDiv.classList.toggle('hidden');
+setTimeout(function() {
+    redLightDiv.classList.toggle('hidden');
+    }, delayInMilliseconds);
 
 
 // setTimeout(function() {
