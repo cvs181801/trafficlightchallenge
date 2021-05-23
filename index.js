@@ -75,6 +75,7 @@ const lights = document.getElementsByTagName('div');
 
 let parentLightDiv = lights[0];
 let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
-parentLightDiv.appendChild('redLightDiv');
+//parentLightDiv.appendChild('redLightDiv');
 let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
-redLightDiv.appendChild('yellowLightDiv');
+let greenLightDiv = lights[3].innerHTML = `<div id="circle-green"></div>`;
+parentLightDiv.insertBefore(redLightDiv, greenLightDiv);
