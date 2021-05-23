@@ -73,9 +73,8 @@
 
 const lights = document.getElementsByTagName('div');
 
-let parentLightDiv = lights[0];
-let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
-//parentLightDiv.appendChild('redLightDiv');
-let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
-let greenLightDiv = lights[3].innerHTML = `<div id="circle-green"></div>`;
-yellowLightDiv.replaceChild(redLightDiv, greenLightDiv);
+// let parentLightDiv = lights[0];
+// let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
+// let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
+// let greenLightDiv = lights[3].innerHTML = `<div id="circle-green"></div>`;
+// yellowLightDiv.replaceChild(redLightDiv, greenLightDiv);
