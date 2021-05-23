@@ -77,3 +77,4 @@ let parentLightDiv = lights[0];
 let redLightDiv = lights[1].innerHTML = `<div id="circle-red"></div>`;
 parentLightDiv.appendChild('redLightDiv');
 let yellowLightDiv = lights[2].innerHTML = `<div id="circle-yellow"></div>`;
+parentLightDiv.appendChild('yellowLightDiv');
