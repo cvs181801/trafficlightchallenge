@@ -89,7 +89,7 @@ setTimeout(function() {
     redLightDiv.classList.toggle('hidden');
     }, 1000);
 
-redLightDiv.classList.toggle('circle-red');
+redLightDiv.classList.toggle('hidden');
 
 
 setTimeout(function() {
