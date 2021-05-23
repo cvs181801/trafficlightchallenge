@@ -86,7 +86,7 @@ const yellowLightDiv = document.getElementById("circle-yellow");
 const greenLightDiv = document.getElementById("circle-green");
 
 setTimeout(function() {
-    resolve(redLightDiv.classList.toggle('hidden'));
+    redLightDiv.classList.toggle('hidden');
     }, 2000);
  
 redLightDiv.classList.toggle('hidden');
