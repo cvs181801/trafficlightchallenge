@@ -95,7 +95,7 @@ setTimeout(function() {
  
 setTimeout(function() {
     redLightDiv.classList.toggle('hidden');
-    }, delayInMilliseconds);
+    }, 6000);
 
 
 // setTimeout(function() {
