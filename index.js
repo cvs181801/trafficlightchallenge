@@ -100,11 +100,14 @@ setTimeout(function() {
      yellowLightDiv.classList.toggle('hidden');
      }, 6000);
 
-// yellowLightDiv.classList.toggle('hidden');
+setTimeout(function() {
+    yellowLightDiv.classList.toggle('hidden');
+    }, 8000);
 
-// setTimeout(function() {
-//     greenLightDiv.classList.toggle('hidden');
-//     }, 4000);    
+setTimeout(function() {
+    greenLightDiv.classList.toggle('hidden');
+    }, 10000);    
 
-// greenLightDiv.classList.toggle('hidden');
-
+setTimeout(function() {
+    greenLightDiv.classList.toggle('hidden');
+    }, 12000);    
